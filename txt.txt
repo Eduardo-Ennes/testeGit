@@ -1,0 +1,29 @@
+'''
+passDesteCurso testegithub
+git  - Para iniciar um projeto git
+
+ls -a -> para mostrar arquivos ocultos
+
+git add "nome.py" -> preparar o codigo no arquivo para commit 
+git commit -m "nome" -> para commitar o codigo no arquivo
+
+git status -> mostra se o arquivo ja foi add ou não
+
+FORMA DE SE VER INFORMAÇÕES DE COMMIT:
+git log
+git log --oneline
+
+DESFAZER COMMIT:
+git checkout id ou nome -> não apaga o historico podendo voltar de onde parou
+git checkout main -> para voltar todo o ponto que parou
+git revert id -> apaga os codigos mas conserva o historico dos commits 
+git reset id -> todos os commits em diante do que voce escolheu serão apagados
+git reset id --hard
+
+git branch
+git branch nome
+git branch -d nome -> se tiver commit não deleta 
+git branch -D nome -> Deleta tudo e de qualquer forma
+git merge nome
+git push -u origin main
+'''
