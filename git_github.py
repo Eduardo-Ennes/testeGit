@@ -14,10 +14,9 @@ name = str(input('Digite o seu nome: '))
 print(f'Seja bem vindo {name}')
 
 
-
-
 '''
 passDesteCurso testegithub
+<<<<<<< HEAD
 git  - Para iniciar um projeto git
 
 ls -a -> para mostrar arquivos ocultos
